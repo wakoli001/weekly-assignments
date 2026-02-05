@@ -4,3 +4,4 @@ CREATE TABLE student(
     major VARCHAR(20)
 );
 DESCRIBE student;
+ALTER TABLE student
