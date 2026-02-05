@@ -5,3 +5,4 @@ CREATE TABLE student(
 );
 DESCRIBE student;
 ALTER TABLE student ADD GPA DECIMAL(3,2);
+DROP TABLE student;
