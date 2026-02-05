@@ -4,4 +4,4 @@ CREATE TABLE student(
     major VARCHAR(20)
 );
 DESCRIBE student;
-ALTER TABLE student ADD GPA(3,2);
+ALTER TABLE student ADD GPA DECIMAL(3,2);
