@@ -1,3 +1,4 @@
 CREATE TABLE (
-    student_Id  IN
+    student_Id  INT  PRIMARY KEY,
+    name  VAR
 );
