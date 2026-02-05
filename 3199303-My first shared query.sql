@@ -1,1 +1,3 @@
-CREATE TABLE
+CREATE TABLE (
+    student_Id  IN
+);
