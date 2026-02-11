@@ -2,7 +2,7 @@ DROP TABLE student;
 CREATE TABLE student(
     student_Id  INT  PRIMARY KEY,
     name  VARCHAR(20), NOT NULL,
-    major VARCHAR(20)INIQUE
+    major VARCHAR(20)UNIQUE,
 );
 DESCRIBE student;
 ALTER TABLE student ADD GPA DECIMAL(3,2);
