@@ -23,7 +23,7 @@ CREATE TABLE Students(
     PRIMARY KEY(student_Id)
 );
 
-SELECT * FROM Student;
+SELECT * FROM Students;
 INSERT INTO Students VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
 INSERT INTO Students(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber security', 4.5);
 INSERT INTO Students(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
