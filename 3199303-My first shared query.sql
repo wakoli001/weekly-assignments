@@ -16,7 +16,7 @@ INSERT INTO student(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber sec
 INSERT INTO student VALUES(9, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
 CREATE TABLE student(
     student_Id  INT,
-    name  VARCHAR(20) ,
+    name  VARCHAR(20) NOT NULL,
     major VARCHAR(20),
     PRIMARY KEY(student_Id)
 );
