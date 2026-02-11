@@ -10,10 +10,10 @@ DROP TABLE student;
 ALTER TABLE student ADD school VARCHAR(20);
 ALTER TABLE student DROP gpa;
 SELECT * FROM student;
-INSERT INTO students VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
-INSERT INTO students(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber security', 4.5);
-INSERT INTO students(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
-INSERT INTO students VALUES(9, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
+INSERT INTO student VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
+INSERT INTO student(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber security', 4.5);
+INSERT INTO student(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
+INSERT INTO student VALUES(9, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
 
 
 CREATE TABLE Students(
