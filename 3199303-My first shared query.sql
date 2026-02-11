@@ -9,4 +9,4 @@ DROP TABLE student;
 ALTER TABLE student ADD school VARCHAR(20);
 ALTER TABLE student DROP gpa;
 
-INSERT INTO student VALUES()
+INSERT INTO student VALUES(1, 'Wan')
