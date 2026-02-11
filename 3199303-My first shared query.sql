@@ -15,7 +15,7 @@ INSERT INTO students(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber secur
 INSERT INTO students(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
 INSERT INTO students VALUES(9, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
 
-DROP TABLE Students,
+DROP TABLE Students;
 
 CREATE TABLE Students(
     student_Id  INT,
