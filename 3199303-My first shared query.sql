@@ -18,5 +18,5 @@ CREATE TABLE student(
     student_Id  INT,,
     name  VARCHAR(20),
     major VARCHAR(20),
-    PRIMARY KEY(student_)
+    PRIMARY KEY(student_Id)
 );
