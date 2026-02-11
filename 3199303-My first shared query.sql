@@ -8,5 +8,5 @@ ALTER TABLE student ADD GPA DECIMAL(3,2);
 DROP TABLE student;
 ALTER TABLE student ADD school VARCHAR(20);
 ALTER TABLE student DROP gpa;
-SELECT * FROM studen
+SELECT * FROM student;
 INSERT INTO student VALUES(1, 'Wangila', 'Biology', 'Kirinyaga', 3.6 );
