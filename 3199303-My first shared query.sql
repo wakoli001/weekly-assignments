@@ -13,10 +13,10 @@ SELECT * FROM student;
 INSERT INTO students VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
 INSERT INTO students(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber security', 4.5);
 INSERT INTO students(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
-INSERT INTO student VALUES(9, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
+INSERT INTO students VALUES(9, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
 CREATE TABLE Students(
     student_Id  INT,
     name  VARCHAR(20) NOT NULL,
-    major VARCHAR(20),
+    major VARCHAR(20) UNIQUE,
     PRIMARY KEY(student_Id)
 );
