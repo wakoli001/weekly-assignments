@@ -24,6 +24,7 @@ CREATE TABLE Students(
 );
 
 ALTER TABLE Students ADD GPA DECIMAL(3,2);
+ALTER TABLE Students ADD school VARCHAR(20);
 
 SELECT * FROM Students;
 INSERT INTO Students VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
