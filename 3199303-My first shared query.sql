@@ -12,4 +12,4 @@ SELECT name * FROM student;
 INSERT INTO student VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
 INSERT INTO student(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber security', 4.5);
 INSERT INTO student(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
-INSERT INTO student VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 7.6 );
+INSERT INTO student VALUES(2, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
