@@ -1,7 +1,7 @@
 DROP TABLE student;
 CREATE TABLE student(
     student_Id  INT  PRIMARY KEY,
-    name  VARCHAR(20), NOT NULL,
+    name  VARCHAR(20) NOT NULL,
     major VARCHAR(20)UNIQUE,
 );
 DESCRIBE student;
