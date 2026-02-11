@@ -9,4 +9,4 @@ DROP TABLE student;
 ALTER TABLE student ADD school VARCHAR(20);
 ALTER TABLE student DROP gpa;
 SELECT * FROM student;
-INSERT INTO student VALUES(2, 'Professor Smalla', 'Co', 'Kirinyaga', 3.6 );
+INSERT INTO student VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', .6 );
