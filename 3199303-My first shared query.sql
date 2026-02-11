@@ -1,4 +1,4 @@
-DROP TABLE stu
+DROP TABLE student;
 CREATE TABLE student(
     student_Id  INT  PRIMARY KEY,
     name  VARCHAR(20),
