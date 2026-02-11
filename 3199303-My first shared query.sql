@@ -11,4 +11,4 @@ ALTER TABLE student DROP gpa;
 SELECT name * FROM student;
 INSERT INTO student VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
 INSERT INTO student(student_Id, name, major) VALUES(5, 'Ian', 'Cyber security');
-INSERT INTO student(student_Id, name, major) VALUES(6, 'Ian', 'Cyber security', kirinyaga);
+INSERT INTO student(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
