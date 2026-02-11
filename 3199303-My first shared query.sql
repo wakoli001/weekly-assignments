@@ -23,7 +23,8 @@ CREATE TABLE Students(
     PRIMARY KEY(student_Id)
 );
 
-ALTER TABLE Student ADD GPA DECIMAL(3,2);
+ALTER TABLE Students ADD GPA DECIMAL(3,2);
+
 SELECT * FROM Students;
 INSERT INTO Students VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
 INSERT INTO Students(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber security', 4.5);
