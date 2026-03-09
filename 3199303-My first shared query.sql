@@ -2,7 +2,7 @@ DROP TABLE student;
 CREATE TABLE student(
     student_Id  INT  PRIMARY KEY AUTO_INCREMENT,
     name  VARCHAR(20) NOT NULL,
-    major VARCHAR(20) UNIQUE,
+    major VARCHAR(20) UNIQUE DEFAULT 'Un',
 );
 DESCRIBE student;
 ALTER TABLE student ADD GPA DECIMAL(3,2);
