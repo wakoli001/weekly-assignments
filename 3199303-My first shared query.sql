@@ -1,6 +1,6 @@
 DROP TABLE student;
 CREATE TABLE student(
-    student_Id  INT  PRIMARY KEY,
+    student_Id  INT  PRIMARY KEY AUTO_INCREMENT,
     name  VARCHAR(20) NOT NULL,
     major VARCHAR(20) UNIQUE,
 );
@@ -10,7 +10,7 @@ DROP TABLE student;
 ALTER TABLE student ADD school VARCHAR(20);
 ALTER TABLE student DROP gpa;
 SELECT * FROM student;
-INSERT INTO student VALUES(2, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
+INSERT INTO student VALUES(, 'Professor Smalla', 'Computer science', 'Kirinyaga', 4.6 );
 INSERT INTO student(student_Id, name, major, GPA) VALUES(5, 'Ian', 'Cyber security', 4.5);
 INSERT INTO student(student_Id, name, major, school) VALUES(6, 'Ian', 'Cyber security', 'kirinyaga');
 INSERT INTO student VALUES(9, 'Professor Smalla', 'Computer Engineering', 'Kirinyaga', 7.6 );
