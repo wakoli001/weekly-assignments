@@ -18,7 +18,7 @@ INSERT INTO student VALUES( 'Professor Smalla', 'Computer Engineering', 'Kirinya
 DROP TABLE Students;
 
 CREATE TABLE Students(
-    student_Id  INT,
+    student_Id  INT AUTO_INCREMENT,
     name  VARCHAR(20) NOT NULL,
     major VARCHAR(20) UNIQUE,
     PRIMARY KEY(student_Id)
