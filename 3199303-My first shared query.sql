@@ -20,7 +20,7 @@ DROP TABLE Students;
 CREATE TABLE Students(
     student_Id  INT,
     name  VARCHAR(20) NOT NULL,
-    major VARCHAR(20) UNIQUE,
+    major VARCHAR(20) UNIQUE DEFAULT ,
     PRIMARY KEY(student_Id)
 );
 
