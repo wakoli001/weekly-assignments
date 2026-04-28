@@ -21,7 +21,7 @@ CREATE TABLE Students(
     student_Id  INT,
     name  VARCHAR(20) NOT NULL,
     major VARCHAR(20) UNIQUE DEFAULT 'Undecided',
-    PRIMARY KEY(student_Id) AO
+    PRIMARY KEY(student_Id) AUTO_INCREMENT
 );
 
 ALTER TABLE Students ADD school VARCHAR(20);
