@@ -24,7 +24,7 @@ CREATE TABLE Students(
     PRIMARY KEY(student_Id) AUTO_INCREMENT
 );
 
-ALTER TABLE Students ADD school VARCHAR(20);
+ALTER TABLE Students ADD school VARCHAR(20)  DEFAULT 'Undecided';
 ALTER TABLE Students ADD GPA DECIMAL(3,2);
 
 SELECT * FROM Students;
