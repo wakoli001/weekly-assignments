@@ -20,8 +20,8 @@ DROP TABLE Students;
 CREATE TABLE Students(
     student_Id  INT,
     name  VARCHAR(20) NOT NULL,
-    major VARCHAR(20) UNIQUE DEFAULT 'Un',
-    PRIMARY KEY(student_Id)
+    major VARCHAR(20) UNIQUE DEFAULT 'Undecided',
+    PRIMARY KEY(student_Id) AO
 );
 
 ALTER TABLE Students ADD school VARCHAR(20);
